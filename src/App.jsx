@@ -5,6 +5,7 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
+        <h1>Hello</h1>
         <Routes>
           <Route path="/contactus" element={<Contact />} />
           <Route path="/privacy" element={<Privacy />} />
